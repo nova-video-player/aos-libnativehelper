@@ -37,7 +37,7 @@ LOCAL_EXPORT_C_INCLUDE_DIRS := \
     $(LOCAL_PATH)/include/nativehelper
 LOCAL_CFLAGS := -Werror
 LOCAL_SRC_FILES := $(local_src_files)
-#LOCAL_LDFLAGS := -llog -ldl
-LOCAL_SDK_VERSION := 14
+LOCAL_LDFLAGS := -llog -ldl
+LOCAL_SDK_VERSION := 21
 LOCAL_ADDITIONAL_DEPENDENCIES := $(LOCAL_PATH)/Android.mk
-include $(BUILD_STATIC_LIBRARY)
+include $(BUILD_SHARED_LIBRARY)

@@ -8,7 +8,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := JniInvocation_test
 LOCAL_CLANG := true
 LOCAL_SRC_FILES := JniInvocation_test.cpp
-LOCAL_SHARED_LIBRARIES := libnativehelper
+LOCAL_SHARED_LIBRARIES := libnvpnativehelper
 include $(BUILD_NATIVE_TEST)
 
 # Host unit test.
@@ -17,5 +17,5 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := JniInvocation_test
 LOCAL_CLANG := true
 LOCAL_SRC_FILES := JniInvocation_test.cpp
-LOCAL_SHARED_LIBRARIES := libnativehelper
+LOCAL_SHARED_LIBRARIES := libnvpnativehelper
 include $(BUILD_HOST_NATIVE_TEST)

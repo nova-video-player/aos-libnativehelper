@@ -29,7 +29,7 @@ local_src_files := \
 
 include $(CLEAR_VARS)
 LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE := libnativehelper
+LOCAL_MODULE := libnvpnativehelper
 LOCAL_CLANG := true
 LOCAL_C_INCLUDES := \
     $(LOCAL_PATH)/include/nativehelper
